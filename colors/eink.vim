@@ -12,7 +12,7 @@ let colors_name = "eink"
 
 if !has('gui_running')
   if &background == "light"
-    hi Normal       cterm=NONE          ctermbg=white   ctermfg=235
+    hi Normal       cterm=NONE          ctermbg=NONE    ctermfg=235
     hi SpecialKey   cterm=bold                          ctermfg=NONE
     hi IncSearch    cterm=reverse                       ctermfg=NONE
     hi Search       cterm=reverse                       ctermfg=NONE
@@ -43,7 +43,7 @@ if !has('gui_running')
     hi PreProc      cterm=None                          ctermfg=NONE
     hi Directive    cterm=NONE          ctermbg=NONE    ctermfg=NONE
     hi Conditional  cterm=NONE          ctermbg=NONE    ctermfg=NONE
-    hi Comment      cterm=bold          ctermbg=NONE    ctermfg=240
+    hi Comment      cterm=bold          ctermbg=NONE    ctermfg=0
     hi Func         cterm=None          ctermbg=234     ctermfg=250
     hi Identifier   cterm=NONE          ctermbg=NONE    ctermfg=NONE
     hi Statement    cterm=NONE          ctermbg=NONE    ctermfg=NONE
