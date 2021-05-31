@@ -59,5 +59,9 @@ hi GitGutterAddLineNr    guifg=green
 hi GitGutterChangeLineNr guifg=orange2
 hi GitGutterDeleteLineNr guifg=red2
 
+hi link GitSignsAddNr    GitGutterAddLineNr
+hi link GitSignsChangeNr GitGutterChangeLineNr
+hi link GitSignsDeleteNr GitGutterDeleteLineNr
+
 hi Pmenu guibg=Thistle1
 hi PmenuSel guibg=SkyBlue
