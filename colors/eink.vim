@@ -23,6 +23,7 @@ hi Folded       gui=standout                        guifg=NONE
 hi FoldColumn   gui=standout                        guifg=NONE
 hi DiffAdd      gui=bold                            guifg=NONE
 hi DiffChange   gui=bold                            guifg=NONE
+hi Changed      gui=bold                            guifg=NONE
 hi DiffDelete   gui=bold                            guifg=NONE
 hi DiffText     gui=reverse                         guifg=NONE
 hi Type         gui=None            guibg=NONE      guifg=NONE
