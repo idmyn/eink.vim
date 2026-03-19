@@ -21,6 +21,7 @@ hi WarningMsg   gui=standout                        guifg=NONE
 hi WildMenu     gui=standout                        guifg=NONE
 hi Folded       gui=standout                        guifg=NONE
 hi FoldColumn   gui=standout                        guifg=NONE
+hi Added        gui=bold                            guifg=NONE
 hi DiffAdd      gui=bold                            guifg=NONE
 hi DiffChange   gui=bold                            guifg=NONE
 hi Changed      gui=bold                            guifg=NONE
